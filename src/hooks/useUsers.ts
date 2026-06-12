@@ -5,7 +5,7 @@ import type { UserFormData } from "../types/UserFormData";
 import { useEffect, useState, type ChangeEvent, type FormEvent } from "react";
 import type { userToEditType } from "../types/ComponentProps";
 
-const useUsers = () => {
+export const useUsers = () => {
     const API_URL = "https://api.escuelajs.co/api/v1/users";
 
     const DEFAULT_FORM = {
@@ -189,5 +189,3 @@ const useUsers = () => {
         goToNewUSer,
     }
 }
-
-export default useUsers;
