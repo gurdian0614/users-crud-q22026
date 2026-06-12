@@ -57,7 +57,7 @@ export const useUsers = () => {
         setUserToEdit(null);
     }
 
-    const goToNewUSer = (): void => {
+    const goToNewUser = (): void => {
         resetForm();
         setActiveSection("form");
     }
@@ -186,6 +186,6 @@ export const useUsers = () => {
         handleSubmit,
         handleEdit,
         handleDelete,
-        goToNewUSer,
+        goToNewUser,
     }
 }
