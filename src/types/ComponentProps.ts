@@ -8,6 +8,7 @@ export type UserFormProps = {
     formData: UserFormData;
     setFormData: Dispatch<SetStateAction<UserFormData>>;
     handleInputChange: (e: ChangeEvent<HTMLInputElement>) => void;
+    handleSubmit: (e: React.SubmitEvent<HTMLFormElement>) => void;
     userToEdit: userToEditType;
     setUserToEdit: Dispatch<SetStateAction<userToEditType>>;
     loading: boolean;
