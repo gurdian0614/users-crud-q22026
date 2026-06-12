@@ -2,7 +2,7 @@ import type { ChangeEvent, Dispatch, SetStateAction } from "react";
 import type { User } from "./User";
 import type { UserFormData } from "./UserFormData";
 
-type userToEditType = User | null;
+export type userToEditType = User | null;
 
 export type UserFormProps = {
     formData: UserFormData;
