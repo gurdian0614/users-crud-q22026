@@ -66,7 +66,7 @@ const GestorUsuarios = () => {
         {/* Footer */}
         <div className="mt-auto pt-4 border-t border-white/10 text-xs text-gray-600 leading-relaxed">
           Programación Web I<br />
-          Q1 · 2026
+          Q2 · 2026
         </div>
       </aside>
 
